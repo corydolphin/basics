@@ -1,0 +1,4 @@
+basics
+======
+
+ongoing slac notes
