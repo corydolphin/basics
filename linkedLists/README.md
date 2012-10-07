@@ -2,8 +2,7 @@
 Instructions for running practice problems:
 
 ```
-pip install requirements.txt
-python linked_list.py
+python tests.py
 ```
 
 ##overview
@@ -39,6 +38,9 @@ Each node has a link to the next node and a link to the previous node.
 A singly linked list with a cycle.
 
 ##common operations
+###finding
+Takes O(n) to find a node with a particular value. You have to walk through the list until you find the right node.
+
 ###insertion
 <pre>
 [node 1] -> [node 2] -> [node 3]
@@ -65,6 +67,3 @@ Similar to insertion:
 
 * Takes O(n) to delete a node anywhere not at the start of the list.
 * Takes O(1) to delete a node at the start of the list.
-
-###finding
-Takes O(n) to find a node with a particular value. You have to walk through the list until you find the right node.
