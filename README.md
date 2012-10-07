@@ -65,7 +65,7 @@ Obviously you want to strive for the lowest runtime complexity. However in most 
 * get [ubuntu](http://www.ubuntu.com/download/desktop). a 10-15 gig partition is sufficient
 * setup python
 ```
-easy_install pip
+easy_install pip;
 sudo pip install virtualenv
 ```
 
@@ -73,8 +73,8 @@ sudo pip install virtualenv
 * get [xcode](https://developer.apple.com/xcode/)
 * install [brew](http://mxcl.github.com/homebrew/) 
 ```ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"```
-* setup python
+* setup python 
 ```
-easy_install pip
+easy_install pip;
 sudo pip install virtualenv
 ```
