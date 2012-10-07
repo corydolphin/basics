@@ -6,7 +6,7 @@ python tests.py
 ```
 
 ##overview
-[wikipedia]()
+[wikipedia](http://en.wikipedia.org/wiki/Hashmap)
 
 A hashmap is a key value store. It maps a key to a certain value. It's known as hashtables or Dictionaries in Python. 
 
