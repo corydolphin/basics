@@ -2,6 +2,30 @@
 
 This is a series of ongoing slac notes & exercises.
 
+##week 0
+* set up a [github](https://github.com/) account
+* set up your computer with either linux or mac
+* get a text editor. suggested editors: sublime, textmate
+
+###linux install
+
+* get [ubuntu](http://www.ubuntu.com/download/desktop). a 10-15 gig partition is sufficient
+* setup python
+```
+easy_install pip;
+sudo pip install virtualenv
+```
+
+###mac install
+* get [xcode](https://developer.apple.com/xcode/)
+* install [brew](http://mxcl.github.com/homebrew/) 
+```ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"```
+* setup python 
+```
+easy_install pip;
+sudo pip install virtualenv
+```
+
 ##week 1
 * big O notation
 * linked lists
@@ -54,27 +78,3 @@ There are a few common speeds of algorithms:
 * Logrithmic: O(log(n))
 
 Obviously you want to strive for the lowest runtime complexity. However in most scenarios you will have to make a tradeoff between memory and speed.
-  
-##week 0
-* set up a [github](https://github.com/) account
-* set up your computer with either linux or mac
-* get a text editor. suggested editors: sublime, textmate
-
-###linux install
-
-* get [ubuntu](http://www.ubuntu.com/download/desktop). a 10-15 gig partition is sufficient
-* setup python
-```
-easy_install pip;
-sudo pip install virtualenv
-```
-
-###mac install
-* get [xcode](https://developer.apple.com/xcode/)
-* install [brew](http://mxcl.github.com/homebrew/) 
-```ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"```
-* setup python 
-```
-easy_install pip;
-sudo pip install virtualenv
-```
