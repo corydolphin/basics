@@ -12,7 +12,7 @@ An array contains a list of values, each with a particular index. The index can 
 
 ##common operations
 ###sorting
-There are multiple ways to sort an array, but the most common are
+There are multiple ways to sort an array (sorting meaning arranging the elements in ascending or descending order), but the most common are
 
 * [quicksort](http://en.wikipedia.org/wiki/Quicksort) Best: O(n*log(n)), Worst: O(n^2)
 * [mergesort](http://en.wikipedia.org/wiki/Mergesort) O(n*log(n))
