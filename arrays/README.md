@@ -34,10 +34,14 @@ the "move_to_array" operation n times.
 
 The second step is O(n*log(n)).  To see this observe the following tree:
 
-1     3  9      4  10       13  7     15  
- \   /     \   /     \     /     \    /   
-  1,3       4,9       10,13       7,15    
-     \      /            \         /     
-      1,3,4,9             7,10,13,15      
-         \                    /           
-           1,3,4,7,9,10,13,15             
+    level 1: 1     3  9      4  10       13  7     15  
+              \   /     \   /     \     /     \    /   
+    level 2:   1,3       4,9       10,13       7,15    
+                 \      /            \         /     
+    level 3:      1,3,4,9             7,10,13,15      
+                      \                    /           
+    level 4:            1,3,4,7,9,10,13,15             
+
+As you can see, at the top of the tree we have just completed step 1, we have separated an array into it's individual elements. Then are log(n) levels above this base level.  At each on of these levels we are merging and comparing the array from the level before.  We start off with the leftmost array on a level, and compare it to its neighbor.  We look at the lowest value in the left most array and compare it with the lowest value in the neighbor array.  Whichever value is lowest gets added to a new array.  We then do the same with the next lowest value in the left array, and so on, until the left array is empty.  At this point we know that everything in the right array is larger then everything in our new array, and we just add the remainder of the right array onto the new array.  The result is a merged and sorted version of the first two arrays on a level.  We then repeat this for the remaining arrays on a level.  
+
+Now this combination of operations that occurs on each level to obtain the next level is O(n).  It's actual worst case runtime is less than n, but its some linear operation of n.  Obtaining the second level in the above tree takes at worst n steps, it takes n/4 steps to get the next level and finally n/2 steps to go from level 3 to level 4.
