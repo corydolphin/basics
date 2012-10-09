@@ -34,10 +34,10 @@ the "move_to_array" operation n times.
 
 The second step is O(n*log(n)).  To see this observe the following tree:
 
-1     3  9      4  10       13  7     15  \n
- \   /     \   /     \     /     \    /   \n
-  1,3       4,9       10,13       7,15    \n
-     \      /            \         /      \n
-      1,3,4,9             7,10,13,15      \n
-         \                    /           \n
-           1,3,4,7,9,10,13,15             \n
+1     3  9      4  10       13  7     15  
+ \   /     \   /     \     /     \    /   
+  1,3       4,9       10,13       7,15    
+     \      /            \         /     
+      1,3,4,9             7,10,13,15      
+         \                    /           
+           1,3,4,7,9,10,13,15             
