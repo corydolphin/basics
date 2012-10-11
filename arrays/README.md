@@ -10,6 +10,8 @@ python tests.py
 
 An array contains a list of values, each with a particular index. The index can be mapped to an address in memory which makes iteration through an array much faster than that of a linked list. 
 In thinking about an Array, it is often helpful to visualize a row of mailboxes, each with a mailbox number.
+![alt text](./MailBoxes.png "Mailboxes!")
+![alt text](./MailBoxesApples.png "Mailboxes!")
 
 ##common operations
 ###sorting
